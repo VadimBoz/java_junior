@@ -1,4 +1,4 @@
-package main.java.ru.gb.lesson1.hw;
+package ru.gb.lesson1.hw;
 
 import java.util.*;
 import java.util.function.Function;
@@ -57,8 +57,9 @@ public class Homework {
   }
 
   /**
-//   * Сгруппировать сотрудников по департаментам
-//   */
+   * //   * Сгруппировать сотрудников по департаментам
+   * //
+   */
   static Map<Department, List<Person>> groupByDepartment(List<Person> people) {
     // FIXME: ваша реализация здесь
     return people.stream().collect(Collectors.groupingBy(Person::getDepart));

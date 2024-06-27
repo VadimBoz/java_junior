@@ -1,4 +1,6 @@
-package main.java.ru.gb;
+package ru.gb;
+
+import java.io.IOException;
 
 public class Main {
 
@@ -6,8 +8,10 @@ public class Main {
 
   // .zip
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
+
     System.out.println("Hello world!");
+    Process p = Runtime.getRuntime().exec("docker images");
   }
 
 }

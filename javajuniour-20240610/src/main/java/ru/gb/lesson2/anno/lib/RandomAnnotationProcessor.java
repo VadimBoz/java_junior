@@ -1,4 +1,4 @@
-package main.java.ru.gb.lesson2.anno.lib;
+package ru.gb.lesson2.anno.lib;
 
 import java.lang.reflect.Field;
 import java.time.Instant;

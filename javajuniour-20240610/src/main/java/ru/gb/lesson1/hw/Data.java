@@ -1,4 +1,4 @@
-package main.java.ru.gb.lesson1.hw;
+package ru.gb.lesson1.hw;
 
 import java.util.ArrayList;
 import java.util.List;

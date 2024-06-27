@@ -1,4 +1,4 @@
-package main.java.ru.gb.lesson2.hw;
+package ru.gb.lesson2.hw;
 
 import java.util.Date;
 

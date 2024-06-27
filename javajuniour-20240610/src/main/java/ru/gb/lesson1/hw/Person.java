@@ -1,4 +1,6 @@
-package main.java.ru.gb.lesson1.hw;
+package ru.gb.lesson1.hw;
+
+
 
 
 public class Person {

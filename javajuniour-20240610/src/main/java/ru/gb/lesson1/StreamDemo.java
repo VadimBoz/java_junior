@@ -1,4 +1,4 @@
-package main.java.ru.gb.lesson1;
+package ru.gb.lesson1;
 
 import java.awt.print.Book;
 import java.time.LocalDate;

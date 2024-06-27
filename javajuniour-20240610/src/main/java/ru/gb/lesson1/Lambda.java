@@ -1,4 +1,4 @@
-package main.java.ru.gb.lesson1;
+package ru.gb.lesson1;
 
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;

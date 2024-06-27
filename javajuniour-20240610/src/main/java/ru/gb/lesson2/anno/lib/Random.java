@@ -1,6 +1,6 @@
-package main.java.ru.gb.lesson2.anno.lib;
+package ru.gb.lesson2.anno.lib;
 
-import main.java.ru.gb.lesson2.anno.AnnotationsMain;
+
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

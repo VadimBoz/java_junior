@@ -1,9 +1,9 @@
-package main.java.ru.gb.lesson2.anno;
+package ru.gb.lesson2.anno;
 
 //import lombok.Data;
-import main.java.ru.gb.lesson2.anno.lib.ObjectCreator;
-import main.java.ru.gb.lesson2.anno.lib.Random;
-import main.java.ru.gb.lesson2.anno.lib.RandomDate;
+import ru.gb.lesson2.anno.lib.ObjectCreator;
+import ru.gb.lesson2.anno.lib.Random;
+import ru.gb.lesson2.anno.lib.RandomDate;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -14,6 +14,7 @@ import java.util.Date;
 public class AnnotationsMain {
 
   public static void main(String[] args) {
+
     Person rndPerson = ObjectCreator.createObj(Person.class);
     System.out.println("age1 = " + rndPerson.age1);
     System.out.println("age2 = " + rndPerson.age2);

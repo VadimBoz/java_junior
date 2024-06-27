@@ -49,7 +49,7 @@ public class HomeWork3 {
                 System.out.println(getPersonDepartments(connection));
 
                 HashMap<Department, List<Person>>  map = getDepartmentPersons(connection);
-                for (Department department :  map.keySet()) {
+                for (Department department : map.keySet()) {
                     System.out.println(department);
                         for  (Person person  :  map.get(department))  {
                             System.out.println("     " + person);
